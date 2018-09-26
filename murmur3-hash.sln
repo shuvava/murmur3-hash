@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15OD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "murmur3-hash-lib", "src\murmur3-hash-lib\murmur3-hash-lib.csproj", "{0C956273-B60E-408E-A796-E85BC9FB59A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C956273-B60E-408E-A796-E85BC9FB59A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C956273-B60E-408E-A796-E85BC9FB59A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C956273-B60E-408E-A796-E85BC9FB59A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C956273-B60E-408E-A796-E85BC9FB59A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
