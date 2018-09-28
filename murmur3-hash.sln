@@ -1,7 +1,16 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15OD
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "murmur3-hash-lib", "src\murmur3-hash-lib\murmur3-hash-lib.csproj", "{0C956273-B60E-408E-A796-E85BC9FB59A3}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "murmur3", "src\murmur3\murmur3.csproj", "{0C956273-B60E-408E-A796-E85BC9FB59A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7A05E680-3339-446A-B42A-6EF1955B13D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "murmur3.UnitTests", "tests\murmur3.UnitTests\murmur3.UnitTests.csproj", "{ACE22A51-61BB-492E-A430-E40296C1DF2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{E07E3514-E7A1-493D-A0CC-B7315B9CEB98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "murmur32-example", "examples\murmur32-example\murmur32-example.csproj", "{159B2286-CAC4-4EFF-BBA8-C71EDBC2AAD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +22,23 @@ Global
 		{0C956273-B60E-408E-A796-E85BC9FB59A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C956273-B60E-408E-A796-E85BC9FB59A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C956273-B60E-408E-A796-E85BC9FB59A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE22A51-61BB-492E-A430-E40296C1DF2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE22A51-61BB-492E-A430-E40296C1DF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE22A51-61BB-492E-A430-E40296C1DF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE22A51-61BB-492E-A430-E40296C1DF2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{159B2286-CAC4-4EFF-BBA8-C71EDBC2AAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159B2286-CAC4-4EFF-BBA8-C71EDBC2AAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159B2286-CAC4-4EFF-BBA8-C71EDBC2AAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{159B2286-CAC4-4EFF-BBA8-C71EDBC2AAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACE22A51-61BB-492E-A430-E40296C1DF2B} = {7A05E680-3339-446A-B42A-6EF1955B13D9}
+		{159B2286-CAC4-4EFF-BBA8-C71EDBC2AAD1} = {E07E3514-E7A1-493D-A0CC-B7315B9CEB98}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBB21368-0BE8-49DF-9985-174A1BE49B85}
 	EndGlobalSection
 EndGlobal
