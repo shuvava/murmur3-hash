@@ -16,7 +16,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\murmur3\murmur3.csproj" />
+    <PackageReference Include="murmur3" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
